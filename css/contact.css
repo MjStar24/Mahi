@@ -1,0 +1,100 @@
+*{
+    box-sizing: content-box;
+}
+
+nav{
+    background-color: black;
+    padding : 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+nav a {
+    text-align: center;
+    padding : 20px;
+    font-size: 20px;
+    color: white;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+body {
+    margin:15px 30px;
+    padding: 8px;
+    background-color: rgba(226, 226, 226, 0.959);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.class01{
+    text-align: center;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"]{
+    padding:20px;
+    width:95%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+textarea{
+    padding:20px;
+    width:95%;
+    border-radius: 10px;
+    margin: 20px;
+    box-sizing: 20px;
+}
+
+footer {
+
+    background-color: black;
+    padding : 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+footer a{
+
+    text-align: center;
+    padding : 20px;
+    font-size: 20px;
+    color: white;
+
+}
+
+footer a:hover{
+    color : orange;
+}
+
+
+.contact{
+    text-align: center;
+    margin : 30 px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: top 30px;
+}
+input[type="submit"]{
+    background-color: green;
+    font-weight: bold;
+    padding : 30px;
+    font-size:25px;
+    border : none;
+    border-radius: 10px;
+}
